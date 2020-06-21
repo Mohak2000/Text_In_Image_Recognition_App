@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "611268236479",
+    "firebase_url": "https://textinimagerecognitionapp.firebaseio.com",
+    "project_id": "textinimagerecognitionapp",
+    "storage_bucket": "textinimagerecognitionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611268236479:android:b1adf04fdb6d3ef551220a",
+        "android_client_info": {
+          "package_name": "com.example.text_in_image_recognition_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611268236479-fc9sindbd8injd9sp0qc9mh2uqvlr04b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.text_in_image_recognition_app",
+            "certificate_hash": "daa296fbb4aafdd04733b95f55a375640472b335"
+          }
+        },
+        {
+          "client_id": "611268236479-6b0raapj0c3pfbjog78egtqc1ao6vqts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_JtQPRtSP_wbmVCb2ej6uKperN6LxjJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611268236479-6b0raapj0c3pfbjog78egtqc1ao6vqts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

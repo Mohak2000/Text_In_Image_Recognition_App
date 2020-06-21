@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/image_view"
+       android:layout_width="match_parent"
+       android:layout_height="375dp"
+
+       />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:textSize="19dp"
+        android:maxLines="8"
+        />
+
+    <Button
+        android:padding="5dp"
+        android:id="@+id/capture_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_marginBottom="5dp"
+        android:layout_above="@id/detect_text_image"
+        android:text="Capture Image"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        android:textSize="17dp"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:padding="5dp"
+        android:id="@+id/detect_text_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Detect Text"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:textSize="17dp"
+
+        />
+
+</RelativeLayout>
